@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nama_gunung": "Gunung Gede",
+        "nama_jalur": "Cibodas",
+        "lokasi": "Cibodas, Jawa Barat",
+        "ketinggian": 2958,
+        "jarak_tempuh_km": 7,
+        "estimasi_waktu_jam": "6-8",
+        "kondisi_jalur": "Beragam, mulai dari hutan hujan tropis hingga area berbatu",
+        "aksesibilitas_fasilitas": "Tersedia pos pendaftaran, pos peristirahatan, sumber air, dan shelter",
+        "deskripsi": "Populer di kalangan pendaki pemula dan menengah, menawarkan pemandangan alam yang menakjubkan."
+    },
+    {
+        "id": 2,
+        "nama_gunung": "Gunung Ciremai",
+        "nama_jalur": "Palutungan",
+        "lokasi": "Kuningan, Jawa Barat",
+        "ketinggian": 3078,
+        "jarak_tempuh_km": 7,
+        "estimasi_waktu_jam": "7-9",
+        "kondisi_jalur": "Medan beragam dengan bagian hutan dan terbuka",
+        "aksesibilitas_fasilitas": "Tersedia fasilitas dasar seperti pos pendakian dan sumber air",
+        "deskripsi": "Menawarkan pendakian yang relatif lebih ringan, cocok untuk semua level pendaki."
+    }
+]

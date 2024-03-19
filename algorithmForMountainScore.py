@@ -1,26 +1,16 @@
-# Mendefinisikan ulang data jalur pendakian dan fungsi untuk menghitung tingkat kesulitan
-data_jalur_pendakian = [
-    {
-        "nama_gunung": "Gunung Gede",
-        "nama_jalur": "Cibodas",
-        "lokasi": "Cibodas, Jawa Barat",
-        "ketinggian": 2958,
-        "jarak_tempuh_km": 7,
-        "estimasi_waktu_jam": "6-8",
-        "kondisi_jalur": "Beragam, mulai dari hutan hujan tropis hingga area berbatu",
-        "aksesibilitas_fasilitas": "Tersedia pos pendaftaran, pos peristirahatan, sumber air, dan shelter",
-        "deskripsi": "Populer di kalangan pendaki pemula dan menengah, menawarkan pemandangan alam yang menakjubkan.",
-    },
-    # Data lainnya disederhanakan untuk fokus pada implementasi
-]
+import json
+
+# Membaca data dari file mountainDatabases.json
+with open("mountainDatabases.json", "r") as file:
+    data_jalur_pendakian = json.load(file)
 
 
 def determine_difficulty(data_jalur_pendakian):
-    def calculate_leveling(mountain):
+    def mount_difficulty(mountain):
         leveling = 0
 
         # Analisis berdasarkan ketinggian
-        if mountain["ketinggian"] <= 2000:
+        if mountain["ketinggian"] <= 2500:
             leveling += 1
         elif mountain["ketinggian"] <= 3000:
             leveling += 2
@@ -68,19 +58,16 @@ def determine_difficulty(data_jalur_pendakian):
 
     leveled_mountains = [
         {
-            "nama_gunung": mountain["nama_gunung"],
-            "nama_jalur": mountain["nama_jalur"],
-            "level": calculate_leveling(mountain),
+            "id": m["id"],
+            "nama_gunung": m["nama_gunung"],
+            "nama_jalur": m["nama_jalur"],
+            "level": mount_difficulty(m),
         }
-        for mountain in data_jalur_pendakian
+        for m in data_jalur_pendakian
     ]
     return leveled_mountains
 
 
 # Menggunakan data jalur pendakian yang diberikan untuk menghitung tingkat kesulitan
-leveled_mountains = determine_difficulty(data_jalur_pendakian)
-
-for mountain in leveled_mountains:
-    print(
-        f"Gunung: {mountain['nama_gunung']}, Jalur: {mountain['nama_jalur']}, Tingkat Kesulitan: {mountain['level']}"
-    )
+tingkat_kesulitan_jalur = determine_difficulty(data_jalur_pendakian)
+print(tingkat_kesulitan_jalur)
