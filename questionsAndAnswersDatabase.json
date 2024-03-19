@@ -1,0 +1,149 @@
+{
+    "allQuestions" : [
+        {
+            "topic": "Pengalaman Pendakian",
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Berapa banyak gunung di Jawa yang telah Anda daki?",
+                    "weight": 0.10,
+                    "options": [
+                        {"label": "0-1 gunung", "value": 1},
+                        {"label": "2-4 gunung", "value": 2},
+                        {"label": "5 atau lebih gunung", "value": 3}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Ketinggian maksimal yang pernah Anda capai dalam pendakian adalah...",
+                    "weight": 0.10,
+                    "options": [
+                        {"label": "Kurang dari 1.500 meter", "value": 1},
+                        {"label": "1.500-3.000 meter", "value": 2},
+                        {"label": "Lebih dari 3.000 meter", "value": 3}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Jenis jalur pendakian apa yang paling sering Anda lalui?",
+                    "weight": 0.10,
+                    "options": [
+                        {"label": "Jalur dengan banyak persimpangan dan minim petunjuk", "value": 1},
+                        {"label": "Jalur terjal dengan sedikit bantuan tali atau peralatan", "value": 2},
+                        {"label": "Jalur yang jelas dan terawat dengan baik", "value": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Frekuensi Pendakian",
+            "questions": [
+                {
+                    "id": 4,
+                    "text": "Dalam setahun terakhir, berapa kali Anda melakukan pendakian?",
+                    "weight": 0.10,
+                    "options": [
+                        {"label": "0-1 kali", "value": 1},
+                        {"label": "2-5 kali", "value": 2},
+                        {"label": "Lebih dari 5 kali", "value": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Kondisi Fisik dan Kesehatan",
+            "questions": [
+                {
+                    "id": 5,
+                    "text": "Apakah Anda rutin melakukan latihan fisik untuk mendukung aktivitas pendakian?",
+                    "weight": 0.10,
+                    "options": [
+                        {"label": "Tidak atau jarang", "value": 1},
+                        {"label": "Kadang-kadang, setidaknya seminggu sekali", "value": 2},
+                        {"label": "Rutin, beberapa kali seminggu", "value": 3}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Apakah Anda memiliki kondisi medis atau fisik yang perlu diperhatikan saat pendakian?",
+                    "weight": 0.10,
+                    "options": [
+                        {"label": "Ya, ada beberapa keterbatasan", "value": 1},
+                        {"label": "Tidak yakin", "value": 2},
+                        {"label": "Tidak, saya dalam kondisi fisik prima", "value": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Pengetahuan Survival Dasar",
+            "questions": [
+                {
+                    "id": 7,
+                    "text": "Berapa banyak situasi darurat yang Anda tahu cara mengatasinya (misal: badai mendadak, tersesat, cedera)?",
+                    "weight": 0.15,
+                    "options": [
+                        {"label": "0-2 situasi", "value": 1},
+                        {"label": "3-5 situasi", "value": 2},
+                        {"label": "Lebih dari 5 situasi", "value": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Pengalaman Menggunakan Peralatan Pendakian",
+            "questions": [
+                {
+                    "id": 8,
+                    "text": "Seberapa baik Anda mengenal dan bisa menggunakan peralatan pendakian berikut? (kompas, GPS, pakaian untuk cuaca ekstrem)",
+                    "weight": 0.15,
+                    "options": [
+                        {"label": "Tidak tahu atau sangat sedikit", "value": 1},
+                        {"label": "Tahu dan bisa menggunakan beberapa di antaranya dengan baik", "value": 2 },
+                        {"label": "Sangat tahu dan bisa menggunakan semua peralatan tersebut dengan baik", "value": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Kemampuan Navigasi",
+            "questions": [
+                {
+                    "id": 9,
+                    "text": "Apakah Anda bisa membaca peta topografi dan menggunakan kompas dengan benar?",
+                    "weight": 0.10,
+                    "options": [
+                        {"label": "Tidak tahu atau belum pernah mencoba", "value": 1},
+                        {"label": "Bisa dengan bantuan dan praktek", "value": 2},
+                        {"label": "Bisa dengan mudah dan akurat", "value": 3}
+                    ]
+                }
+            ]
+        },
+        {
+            "topic": "Pengalaman Berkemah",
+            "questions": [
+                {
+                    "id": 10,
+                    "text": "Berapa kali Anda telah berkemah di alam terbuka selama pendakian?",
+                    "weight": 0.05,
+                    "options": [
+                        {"label": "0-2 kali", "value": 1},
+                        {"label": "3-5 kali", "value": 2},
+                        {"label": "Lebih dari 5 kali", "value": 3}
+                    ]
+                },
+                {
+                    "id": 11,
+                    "text": "Seberapa mandiri Anda dalam berkemah? (mendirikan tenda, memasak, manajemen sampah)",
+                    "weight": 0.05,
+                    "options": [
+                        {"label": "Bergantung pada bantuan orang lain atau panduan", "value": 1},
+                        {"label": "Bisa melakukan kebanyakan tugas dengan sedikit bantuan", "value": 2},
+                        {"label": "Saya bisa mengelola semuanya sendiri dengan efisien","value": 3}
+                    ]
+                }
+            ]
+        }
+    ]
+}
