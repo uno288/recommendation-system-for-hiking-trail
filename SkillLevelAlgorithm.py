@@ -204,12 +204,19 @@ def calculate_skill_level(questions, answers):
         return "beginner"
 
 
-# Contoh jawaban pengguna
+# example answers from user
 example_answers = [
     {"questionId": 1, "value": 3},
     {"questionId": 2, "value": 2},
     {"questionId": 3, "value": 1},
-    # Penyesuaian untuk contoh, diasumsikan semua pertanyaan dijawab dengan skema ini
+    {"questionId": 4, "value": 1},
+    {"questionId": 5, "value": 1},
+    {"questionId": 6, "value": 1},
+    {"questionId": 7, "value": 1},
+    {"questionId": 8, "value": 1},
+    {"questionId": 9, "value": 1},
+    {"questionId": 10, "value": 1},
+    {"questionId": 11, "value": 1},
 ]
 
 # Menghitung tingkat kemahiran berdasarkan contoh jawaban
